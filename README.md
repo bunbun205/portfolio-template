@@ -2,7 +2,7 @@
 
 A developer and artist-friendly portfolio template built with **Astro**, **React**, **TailwindCSS**, and **Vite**. Designed to be modern, responsive, easily customizable, and backend-ready.
 
-Preview: [Live preview](https://portfolio-template-b7j.pages.dev/projects/)
+Preview: [Live preview](https://portfolio-template-b7j.pages.dev/)
 
 ---
 
