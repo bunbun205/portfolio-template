@@ -143,10 +143,9 @@ You can link the Contact page to:
 
 *Add screenshot previews here using markdown:*
 
-```md
 ![Homepage](screenshots/homepage.png)
 ![Projects Popup](screenshots/projects-popup.png)
-```
+
 
 ---
 
