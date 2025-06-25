@@ -31,7 +31,7 @@ function Platform() {
 			if (touchStartX === null) return;
 			const touchX = e.touches[0].clientX;
 			const deltaX = touchX - touchStartX;
-			targetRotation.current -= deltaX * 0.005; // Adjust for sensitivity
+			targetRotation.current += deltaX * 0.005; // Adjust for sensitivity
 			touchStartX = touchX;
 		};
 
