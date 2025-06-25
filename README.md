@@ -111,3 +111,14 @@ These links serve no political purpose within this project—only a compassionat
 - [ICRC – Palestine](https://www.icrc.org/en/where-we-work/middle-east/palestine)  
 - [UNRWA – UN Relief and Works Agency](https://www.unrwa.org/)  
 - [B’Tselem – Human Rights in the Occupied Territories](https://www.btselem.org/)
+
+---
+
+## ☕ Support
+
+If you found this template helpful or want to support future work, consider supporting me through the following platforms:
+
+- [Buy Me a Coffee ☕](https://www.buymeacoffee.com/beany159)  
+- [PayPal 💸](https://www.paypal.me/dalmatOr)
+
+Your support is appreciated and helps sustain open-source development. Thank you!
