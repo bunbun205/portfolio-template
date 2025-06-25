@@ -21,7 +21,7 @@ export default function SupportSection() {
           icon={<Coffee size={32} />}
           title="Buy Me a Coffee"
           description="A small gesture goes a long way! Treat me to a coffee and keep the creativity flowing."
-          link="https://www.buymeacoffee.com/"
+          link="https://www.buymeacoffee.com/beany159"
         />
 
         {/* UPI */}
@@ -37,7 +37,7 @@ export default function SupportSection() {
           icon={<DollarSign size={28} />}
           title="PayPal"
           description="Support internationally via PayPal using a secure hosted page."
-          link="https://www.paypal.me/yourusername"
+          link="https://www.paypal.me/dalmatOr"
         />
 
         {/* Bank Transfer (Request Info) */}
