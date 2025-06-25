@@ -9,18 +9,17 @@ A developer and artist-friendly portfolio template built with **Astro**, **React
 - 🌙 Dark/Light Theme Toggle  
 - 🎨 Project Showcase (Carousel, Categories, Popup Viewer)  
 - ✍️ Blog Section with Likes & Commenting  
-- 💬 Comment Threads (frontend-only with local storage fallback)  
-- 📦 Asset Viewer & Upload System (if backend connected)  
+- 💬 Comment Threads   
 - 🧠 Skill Map + About + Resume Popup  
-- ☕ Funding Page (UPI, PayPal, Bank Transfer options)  
 - 🧩 Modular Components for Reusability  
-- 🔧 Backend-Ready but Fully Functional Without One  
 
 ---
 
 ## 🛠️ Getting Started
 
 ### 1. Clone the Repo
+
+You can follow these steps to use this code, or use this template straight from github.
 
 ```bash
 git clone https://github.com/yourusername/your-portfolio-template.git
@@ -43,67 +42,26 @@ npm run dev
 
 ## 📁 Folder Structure
 
+You will find the code inside the src folder in the follwing structure:
+
 ```
 src/
 ├── components/          # React components
-│   ├── Blog/
+│   ├── AboutPage/
+│   ├── BlogPage/
+│   ├── Common/
+│   ├── ContactPage/
+│   ├── HomePage/
 │   ├── ProjectsPage/
-│   ├── Shared/
-│   └── ...
+│   ├── Terms&Conditions/
 ├── layouts/             # Astro layout files
 ├── pages/               # Astro pages (.astro)
-│   ├── index.astro
-│   ├── blog/
 │   ├── projects/
-│   └── contact.astro
 ├── styles/              # Tailwind and global styles
 ├── utils/               # Helper functions, interfaces, mock data
-└── assets/              # Static files like images and models
 ```
 
 ---
-
-## ⚙️ Configuration
-
-- Theme toggle is stored in local storage and syncs with system preference.
-- You can update mock content in:
-  - \`src/utils/mockProjects.ts\`
-  - \`src/utils/mockPosts.ts\`
-  - \`src/utils/mockComments.ts\`
-- To change skills, update \`SkillMap.tsx\`.
-
----
-
-## 🔌 Backend Integration (Optional)
-
-This template is **backend-ready**. You can integrate your own REST API or Cloudflare Worker to support:
-
-- Persistent blog posts  
-- Project uploads  
-- Comment moderation  
-- Asset hosting (Cloudflare R2 recommended)
-
-See `/utils/interfaces.ts` for expected data formats.
-
----
-
-## 🧪 Fallback Behavior
-
-If no backend is detected, the site uses:
-
-- Mock data for blog posts and projects  
-- Local storage to save comments and likes  
-- Fallback \`mock-thumb.png\` image and lorem ipsum text  
-
----
-
-## 📦 Deployment
-
-Recommended platforms:
-
-- [Vercel](https://vercel.com/)
-- [Netlify](https://netlify.com/)
-- [Cloudflare Pages](https://pages.cloudflare.com/)
 
 ### Build
 
@@ -119,38 +77,37 @@ npm run preview
 
 ---
 
-## 💰 Support Section Setup
-
-You can link the Contact page to:
-
-- ✅ UPI QR or payment link  
-- ✅ PayPal.me  
-- ✅ Bank transfer instructions (external or via email)
-
-> ⚠️ No sensitive data is stored in code. Use third-party platforms for secure handling.
-
----
-
-## 🧑‍💻 Author
-
-- Built by [Your Name](https://yourportfolio.com)  
-- Twitter: [@yourhandle](https://twitter.com/yourhandle)  
-- License: MIT
-
----
-
 ## 📸 Screenshots
 
 ![Homepage](screenshots/Homepage.png)
 ![Homepage-Light](screenshots/Homepage-light.png)
 ![Projects Popup](screenshots/Projectpopup.png)
 
+---
+
+## 📜 Attribution
+
+If you use this project or its structure in any way, please include the following in your credits or documentation:
+
+```
+Website template by Mayank Yadav (http://github.com/bunbun205)
+
+Source code licensed under the MIT License.
+```
 
 ---
 
-## ✅ To-Do (Optional)
+## 🕊️ Humanitarian Appeal
 
-- [ ] Add backend endpoints  
-- [ ] Integrate Cloudflare D1/R2  
-- [ ] CMS-like blog editor  
-- [ ] Image optimization  
+This portfolio template includes a small but heartfelt message of support for humanitarian aid efforts in Palestine. As you use or modify this code, please consider keeping the links to donation resources such as:
+
+- [PCRF – Palestine Children’s Relief Fund](https://www.pcrf.net)  
+- [Funds for Gaza](https://linktr.ee/fundsforgaza)
+
+These links serve no political purpose within this project—only a compassionate one. The devastation faced by civilians, especially children, deserves awareness and empathy. Even if you must remove them, please consider visiting the resources below and staying informed:
+
+### Learn More:
+
+- [ICRC – Palestine](https://www.icrc.org/en/where-we-work/middle-east/palestine)  
+- [UNRWA – UN Relief and Works Agency](https://www.unrwa.org/)  
+- [B’Tselem – Human Rights in the Occupied Territories](https://www.btselem.org/)

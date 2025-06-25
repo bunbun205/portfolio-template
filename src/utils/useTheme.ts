@@ -4,6 +4,7 @@ export function useTheme() {
   const [theme, setTheme] = useState<'light' | 'dark'>('dark');
 
   useEffect(() => {
+    setTheme('light');
     const html = document.documentElement;
     const observer = new MutationObserver(() => {
       if (html.classList.contains('dark')) {

@@ -6,7 +6,6 @@ import * as THREE from "three";
 import { useTheme } from "../../utils/useTheme";
 
 function ParticleSphere() {
-  const theme = useTheme();
   const points = useRef<THREE.Points>(null);
   const sprite = useMemo(() => new THREE.TextureLoader().load("/star.png"), []);
 
@@ -63,7 +62,7 @@ export default function StarrySphereBackground() {
   const theme = useTheme();
 
   // Render only in dark mode
-  if (theme !== "dark") return null;
+  if (theme === "light") return null;
 
   return (
     <Canvas
