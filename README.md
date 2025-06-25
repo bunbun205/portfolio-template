@@ -80,7 +80,7 @@ npm run preview
 
 ## Homepage
 
-Replace the placeholder platform and place in your custom 3D object or scene for the homepage legend and move the links to where they make sense to you.
+Replace the placeholder platform and replace it with your custom 3D object or scene for the homepage legend and move the links to where they make sense to you.
 
 ---
 
