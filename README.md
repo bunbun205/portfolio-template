@@ -87,8 +87,15 @@ Replace the placeholder platform and replace it with your custom 3D object or sc
 ## 📸 Screenshots
 
 ![Homepage](screenshots/Homepage.png)
-![Homepage-Light](screenshots/Homepage-light.png)
+![Aboutpage](screenshots/Aboutpage.png)
+![Resumepopup](screenshots/Resumepopup.png)
+![Projectspage](screenshots/Projectspage.png)
+![Categories](screenshots/Categories.png)
 ![Projects Popup](screenshots/Projectpopup.png)
+![Blogpage](screenshots/Blogpage.png)
+![Blogpost](screenshots/Blogpost.png)
+![Contact](screenshots/Contact.png)
+![Homepage-Light](screenshots/Homepage-light.png)
 
 ---
 
