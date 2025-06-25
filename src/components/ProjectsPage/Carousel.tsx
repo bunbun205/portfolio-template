@@ -15,7 +15,12 @@ export default function Carousel() {
   }, [current]);
 
   return (
-    <div className="py-4 mb-4 relative w-full max-w-6xl mx-auto h-[500px] overflow-hidden rounded-xl">
+    <motion.div
+      initial={{ y: -100, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      transition={{ duration: 0.9, ease: "easeOut" }} 
+      className="mb-4 relative w-full max-w-4xl mx-auto h-[400px] overflow-hidden rounded-3xl"
+    >
       <AnimatePresence>
         {mockProjects.map((project, index) =>
           index === current ? (
@@ -49,6 +54,6 @@ export default function Carousel() {
           />
         ))}
       </div>
-    </div>
+    </motion.div>
   );
 }
