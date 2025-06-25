@@ -12,6 +12,7 @@ A developer and artist-friendly portfolio template built with **Astro**, **React
 - 💬 Comment Threads   
 - 🧠 Skill Map + About + Resume Popup  
 - 🧩 Modular Components for Reusability  
+- 🧊 THREEjs support for 3D elements
 
 ---
 
@@ -74,6 +75,12 @@ npm run build
 ```bash
 npm run preview
 ```
+
+---
+
+## Homepage
+
+Replace the placeholder platform and place in your custom 3D object or scene for the homepage legend and move the links to where they make sense to you.
 
 ---
 
