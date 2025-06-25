@@ -6,40 +6,44 @@ A developer and artist-friendly portfolio template built with **Astro**, **React
 
 ## 🚀 Features
 
-- 🌙 Dark/Light Theme Toggle
-- 🎨 Project Showcase (Carousel, Categories, Popup Viewer)
-- ✍️ Blog Section with Likes & Commenting
-- 💬 Comment Threads (frontend-only with local storage fallback)
-- 📦 Asset Viewer & Upload System (if backend connected)
-- 🧠 Skill Map + About + Resume Popup
-- ☕ Funding Page (UPI, PayPal, Bank Transfer options)
-- 🧩 Modular Components for Reusability
-- 🔧 Backend-Ready but Fully Functional Without One
+- 🌙 Dark/Light Theme Toggle  
+- 🎨 Project Showcase (Carousel, Categories, Popup Viewer)  
+- ✍️ Blog Section with Likes & Commenting  
+- 💬 Comment Threads (frontend-only with local storage fallback)  
+- 📦 Asset Viewer & Upload System (if backend connected)  
+- 🧠 Skill Map + About + Resume Popup  
+- ☕ Funding Page (UPI, PayPal, Bank Transfer options)  
+- 🧩 Modular Components for Reusability  
+- 🔧 Backend-Ready but Fully Functional Without One  
 
 ---
 
 ## 🛠️ Getting Started
 
-### 1. **Clone the Repo**
+### 1. Clone the Repo
+
 ```bash
 git clone https://github.com/yourusername/your-portfolio-template.git
 cd your-portfolio-template
 ```
 
 ### 2. Install Dependencies
+
 ```bash
 npm install
 ```
 
 ### 3. Run Locally
+
 ```bash
 npm run dev
 ```
 
+---
+
 ## 📁 Folder Structure
-bash
-Copy
-Edit
+
+```
 src/
 ├── components/          # React components
 │   ├── Blog/
@@ -55,87 +59,100 @@ src/
 ├── styles/              # Tailwind and global styles
 ├── utils/               # Helper functions, interfaces, mock data
 └── assets/              # Static files like images and models
-⚙️ Configuration
-Theme toggle is stored in local storage and syncs with system preference.
+```
 
-You can update mock content in:
+---
 
-src/utils/mockProjects.ts
+## ⚙️ Configuration
 
-src/utils/mockPosts.ts
+- Theme toggle is stored in local storage and syncs with system preference.
+- You can update mock content in:
+  - \`src/utils/mockProjects.ts\`
+  - \`src/utils/mockPosts.ts\`
+  - \`src/utils/mockComments.ts\`
+- To change skills, update \`SkillMap.tsx\`.
 
-src/utils/mockComments.ts
+---
 
-To change skills, update SkillMap.tsx.
+## 🔌 Backend Integration (Optional)
 
-🔌 Backend Integration (Optional)
-This template is backend-ready. You can integrate your own REST API or Cloudflare Worker to support:
+This template is **backend-ready**. You can integrate your own REST API or Cloudflare Worker to support:
 
-Persistent blog posts
+- Persistent blog posts  
+- Project uploads  
+- Comment moderation  
+- Asset hosting (Cloudflare R2 recommended)
 
-Project uploads
+See `/utils/interfaces.ts` for expected data formats.
 
-Comment moderation
+---
 
-Asset hosting (Cloudflare R2 recommended)
+## 🧪 Fallback Behavior
 
-See /utils/interfaces.ts for expected data formats.
-
-🧪 Fallback Behavior
 If no backend is detected, the site uses:
 
-Mock data for blog posts and projects
+- Mock data for blog posts and projects  
+- Local storage to save comments and likes  
+- Fallback \`mock-thumb.png\` image and lorem ipsum text  
 
-Local storage to save comments and likes
+---
 
-Fallback mock-thumb.png image and lorem ipsum text
+## 📦 Deployment
 
-📦 Deployment
 Recommended platforms:
 
-Vercel
+- [Vercel](https://vercel.com/)
+- [Netlify](https://netlify.com/)
+- [Cloudflare Pages](https://pages.cloudflare.com/)
 
-Netlify
+### Build
 
-Cloudflare Pages
-
-Build
-bash
-Copy
-Edit
+```bash
 npm run build
-Preview
-bash
-Copy
-Edit
+```
+
+### Preview
+
+```bash
 npm run preview
-💰 Support Section Setup
+```
+
+---
+
+## 💰 Support Section Setup
+
 You can link the Contact page to:
 
-✅ UPI QR or link
+- ✅ UPI QR or payment link  
+- ✅ PayPal.me  
+- ✅ Bank transfer instructions (external or via email)
 
-✅ PayPal.me
+> ⚠️ No sensitive data is stored in code. Use third-party platforms for secure handling.
 
-✅ Bank transfer instructions (external)
+---
 
-⚠️ No sensitive data is stored in code.
+## 🧑‍💻 Author
 
-🧑‍💻 Author
-Built by Your Name
+- Built by [Your Name](https://yourportfolio.com)  
+- Twitter: [@yourhandle](https://twitter.com/yourhandle)  
+- License: MIT
 
-Twitter: @yourhandle
+---
 
-License: MIT
+## 📸 Screenshots
 
-📸 Screenshots
-(Insert screenshot previews of key pages)
+*Add screenshot previews here using markdown:*
 
-✅ To-Do (Optional)
- Add backend endpoints
+```md
+![Homepage](screenshots/homepage.png)
+![Projects Popup](screenshots/projects-popup.png)
+```
 
- Integrate Cloudflare D1/R2
+---
 
- CMS-like blog editor
+## ✅ To-Do (Optional)
 
- Image optimization
-
+- [ ] Add backend endpoints  
+- [ ] Integrate Cloudflare D1/R2  
+- [ ] CMS-like blog editor  
+- [ ] Image optimization  
