@@ -24,17 +24,19 @@ A developer and artist-friendly portfolio template built with **Astro**, **React
 ```bash
 git clone https://github.com/yourusername/your-portfolio-template.git
 cd your-portfolio-template
-2. Install Dependencies
-bash
-Copy
-Edit
+```
+
+### 2. Install Dependencies
+```bash
 npm install
-3. Run Locally
-bash
-Copy
-Edit
+```
+
+### 3. Run Locally
+```bash
 npm run dev
-📁 Folder Structure
+```
+
+## 📁 Folder Structure
 bash
 Copy
 Edit
