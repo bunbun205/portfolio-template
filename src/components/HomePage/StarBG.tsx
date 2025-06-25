@@ -8,7 +8,6 @@ import { useTheme } from "../../utils/useTheme";
 function ParticleSphere() {
   const theme = useTheme();
   const points = useRef<THREE.Points>(null);
-  const color = theme === "dark" ? "#fefefe" : "#121212";
   const sprite = useMemo(() => new THREE.TextureLoader().load("/star.png"), []);
 
   const particleCount = 2000;
@@ -17,7 +16,7 @@ function ParticleSphere() {
   const positions = useMemo(() => {
     const arr = new Float32Array(particleCount * 3);
     for (let i = 0; i < particleCount; i++) {
-      const r = radius * Math.cbrt(Math.random()); // uniform volume
+      const r = radius * Math.cbrt(Math.random());
       const phi = Math.acos(2 * Math.random() - 1);
       const theta = 2 * Math.PI * Math.random();
 
@@ -38,7 +37,7 @@ function ParticleSphere() {
 
   useFrame((_, delta) => {
     if (points.current) {
-	const speed = 0.005;
+      const speed = 0.005;
       points.current.rotation.y += speed * delta;
       points.current.rotation.x += speed * delta;
       points.current.rotation.z += speed * delta;
@@ -48,7 +47,7 @@ function ParticleSphere() {
   return (
     <points ref={points} geometry={geometry}>
       <pointsMaterial
-        color={color}
+        color={"#ffffff"}
         size={0.1}
         sizeAttenuation
         map={sprite}
@@ -61,6 +60,11 @@ function ParticleSphere() {
 }
 
 export default function StarrySphereBackground() {
+  const theme = useTheme();
+
+  // Render only in dark mode
+  if (theme !== "dark") return null;
+
   return (
     <Canvas
       camera={{ position: [0, 0, 10], fov: 75 }}

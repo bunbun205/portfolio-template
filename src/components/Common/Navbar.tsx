@@ -30,11 +30,11 @@ const NavBar = () => {
 
 				{/* Desktop Navigation */}
 				<div className="hidden lg:flex space-x-6 text-lg">
-					<a href="/" className="hover:text-blue-600">Home</a>
-					<a href="/about" className="hover:text-blue-600">About</a>
-					<a href="/projects" className="hover:text-blue-600">Projects</a>
-					<a href="/blog" className="hover:text-blue-600">Blog</a>
-					<a href="/contact" className="hover:text-blue-600">Contact Me</a>
+					<a href="/" className="hover:underline">Home</a>
+					<a href="/about" className="hover:underline">About</a>
+					<a href="/projects" className="hover:underline">Projects</a>
+					<a href="/blog" className="hover:underline">Blog</a>
+					<a href="/contact" className="hover:underline">Contact Me</a>
 				</div>
 
 				{/* Mobile Dropdown */}
@@ -43,11 +43,11 @@ const NavBar = () => {
 					${isOpen ? 'max-h-[500px]' : 'max-h-0'}`}
 				>
 					<div className="flex flex-col px-4 py-4 space-y-4 text-lg overflow-y-auto max-h-[75vh]">
-						<a href="/" onClick={toggleMenu} className="hover:text-blue-600">Home</a>
-						<a href="/about" onClick={toggleMenu} className="hover:text-blue-600">About</a>
-						<a href="/projects" onClick={toggleMenu} className="hover:text-blue-600">Projects</a>
-						<a href="/blog" onClick={toggleMenu} className="hover:text-blue-600">Blog</a>
-						<a href="/contact" onClick={toggleMenu} className="hover:text-blue-600">Contact Me</a>
+						<a href="/" onClick={toggleMenu} className="hover:underline">Home</a>
+						<a href="/about" onClick={toggleMenu} className="hover:underline">About</a>
+						<a href="/projects" onClick={toggleMenu} className="hover:underline">Projects</a>
+						<a href="/blog" onClick={toggleMenu} className="hhover:underline">Blog</a>
+						<a href="/contact" onClick={toggleMenu} className="hover:underline">Contact Me</a>
 					</div>
 				</div>
 			</div>

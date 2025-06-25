@@ -4,11 +4,12 @@
 export interface Project {
   id: string;
   title: string;
+  assets: string[]; // List of media URLs
   thumbnail_url: string;
   category: string;
-  description: string;
+  description?: string;
+  likes: number;
   created_at: string;
-  assets?: string[]; // optional array of asset URLs
 }
 
 export interface BlogPost {

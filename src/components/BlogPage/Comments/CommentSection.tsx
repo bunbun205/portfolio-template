@@ -170,7 +170,7 @@ const handleFlag = (id: string) => {
                   setShowReply(false);
                 }
               }}
-              className="px-3 py-1 bg-blue-500 text-white rounded text-sm"
+              className="px-3 py-1 bg-light-accent dark:bg-dark-accent text-white rounded text-sm"
             >
               Send
             </button>
@@ -193,7 +193,7 @@ const handleFlag = (id: string) => {
         />
         <button
           onClick={addComment}
-          className="px-4 py-2 bg-green-500 text-white rounded"
+          className="px-4 py-2 bg-light-accent dark:bg-dark-accent text-white rounded"
         >
           Post
         </button>

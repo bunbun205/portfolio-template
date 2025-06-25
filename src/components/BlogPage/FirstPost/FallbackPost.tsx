@@ -1,10 +1,8 @@
 'use client';
 
-import FallbackComments from "../Comments/CommentSection";
-
 export default function FallbackPost() {
   return (
-    <article className="max-w-3xl mx-auto p-6 text-light-text dark:text-dark-text bg-light-background dark:bg-dark-background">
+    <article className="max-w-4xl mx-auto p-6 text-light-text dark:text-dark-text bg-light-background dark:bg-dark-background">
       {/* Banner */}
       <div className="w-full h-64 overflow-hidden rounded-xl mb-6">
         <img
@@ -58,8 +56,6 @@ export default function FallbackPost() {
           Sed tincidunt, tortor at laoreet porta, nibh lacus luctus sem, sit amet fermentum turpis purus at justo.
           Mauris sed urna quis metus volutpat tristique.
         </p>
-
-	<FallbackComments />
       </div>
     </article>
   );

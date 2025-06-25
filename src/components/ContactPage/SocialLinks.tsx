@@ -13,35 +13,35 @@ export default function SocialLinks() {
       <h2 className="text-2xl mb-2">Hit me up!</h2>
     <div className="flex gap-4 text-2xl">
       <a
-        href="https://www.linkedin.com/in/mayank-yadav-7873a1120/"
+        href="https://www.linkedin.com/in/"
         target="_blank"
         rel="noopener noreferrer"
       >
         <FaLinkedin className='hover:scale-110 transition-transform' />
       </a>
       <a
-        href="https://www.instagram.com/may_ank.69/"
+        href="https://www.instagram.com/"
         target="_blank"
         rel="noopener noreferrer"
       >
         <FaInstagram className='hover:scale-110 transition-transform' />
       </a>
       <a
-        href="https://www.youtube.com/@zenthor3D/"
+        href="https://www.youtube.com/"
         target="_blank"
         rel="noopener noreferrer"
       >
         <FaYoutube className='hover:scale-110 transition-transform' />
       </a>
       <a
-        href="https://www.artstation.com/zenthor3d"
+        href="https://www.artstation.com/"
         target="_blank"
         rel="noopener noreferrer"
       >
         <SiArtstation className='hover:scale-110 transition-transform' />
       </a>
       <a
-        href="https://www.github.com/bunbun205"
+        href="https://www.github.com/"
         target="_blank"
         rel="noopener noreferrer"
       >
