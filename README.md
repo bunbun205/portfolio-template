@@ -141,9 +141,8 @@ You can link the Contact page to:
 
 ## 📸 Screenshots
 
-*Add screenshot previews here using markdown:*
-
 ![Homepage](screenshots/Homepage.png)
+![Homepage-Light](screenshots/Homepage-light.png)
 ![Projects Popup](screenshots/Projectpopup.png)
 
 
